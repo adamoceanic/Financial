@@ -1,0 +1,16 @@
+**/cmake-build-debug
+**/cmake-build-debug/**
+**/cmake-build-release
+**/cmake-build-release/**
+**/.idea/**
+**/.idea/workspace.xml
+./idea/**
+**.idea/
+build/
+build/**
+**build/**
+build-test/
+build-test/**
+**build-test/**
+old-stuff/**
+**old-stuff/**

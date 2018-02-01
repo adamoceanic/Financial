@@ -3,7 +3,10 @@
 #include <ctime>
 #include <iostream>
 #include <iomanip>
-using namespace std;
+
+using std::cout;
+using std::endl;
+using std::cin;
 
 double a = 0, b = 1;
 
@@ -30,5 +33,5 @@ int main ( )
        if ( y < f(x) ) counter++;
     }
 
-    cout << "Estimate of integral is " << counter / ( double ) N;
+    cout << "Estimate of integral: " << counter/(double)N;
 }
